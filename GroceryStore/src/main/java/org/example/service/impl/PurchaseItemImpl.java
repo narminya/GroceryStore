@@ -1,26 +1,25 @@
 package org.example.service.impl;
 
-import org.example.entity.Purchase;
+import org.example.entity.PurchaseItem;
 import org.example.service.Service;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.UUID;
 
-public class PurchaseServiceImpl implements Service<Purchase, UUID> {
-
-
+public class PurchaseItemImpl implements Service<PurchaseItem, UUID> {
     @Override
-    public Purchase Create(Purchase model) {
+    public PurchaseItem Create(PurchaseItem model) {
         return null;
     }
 
     @Override
-    public Purchase Get(UUID id) {
+    public PurchaseItem Get(UUID id) {
         return null;
     }
 
     @Override
-    public List<Purchase> GetAll() {
+    public List<PurchaseItem> GetAll() {
         return null;
     }
 
@@ -30,7 +29,7 @@ public class PurchaseServiceImpl implements Service<Purchase, UUID> {
     }
 
     @Override
-    public Purchase Update(int id, Purchase model) {
+    public PurchaseItem Update(int id, PurchaseItem model) {
         return null;
     }
 }
